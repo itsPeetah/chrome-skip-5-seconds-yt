@@ -1,0 +1,1 @@
+export const SKIP_BUTTON_ID = "5ss_button"

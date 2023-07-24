@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "My Extension",
+  "name": "5 Second Skips",
   "version": "1.0",
-  "description": "Description of your extension",
+  "description": "Skip 5 second ads on YouTube",
   "background": {
     "service_worker": "background.js"
   },
