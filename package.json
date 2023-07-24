@@ -1,5 +1,5 @@
 {
-  "name": "chrome-skip-five-seonds",
+  "name": "chrome-skip-five-seconds",
   "version": "1.0.0",
   "description": "",
   "main": "background.js",

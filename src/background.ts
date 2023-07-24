@@ -9,7 +9,6 @@ function injectScript(tabId: number) {
             files: ['injectButton.js'],
         }
     );
-
 }
 
 chrome.action.onClicked.addListener((tab) => {
