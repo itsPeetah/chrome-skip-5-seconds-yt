@@ -4,11 +4,11 @@ module.exports = {
   mode: "production",
   entry: {
     background: path.resolve(__dirname, "..", "src", "background.ts"),
-    injectButton: path.resolve(__dirname, "..", "src", "injectButton.ts"),
+    content: path.resolve(__dirname, "..", "src", "content.ts"),
   },
   output: {
     path: path.join(__dirname, "../dist"),
-    filename: "[name].js",
+    filename: "js/[name].js",
   },
   resolve: {
     extensions: [".ts", ".js"],

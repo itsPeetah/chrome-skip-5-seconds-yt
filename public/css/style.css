@@ -1,0 +1,13 @@
+.s5s__btn {
+  /* Padding */
+  padding: 10px 20px;
+  /* Border */
+  border: none;
+  border-radius: 9999px;
+  /* Text */
+  font-weight: 600;
+}
+
+.s5s__btn:hover {
+  background-color: #d8d8d8;
+}

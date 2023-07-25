@@ -1,11 +1,19 @@
 {
   "manifest_version": 3,
-  "name": "5 Second Skips",
+  "name": "Skip 5 Seconds",
   "version": "1.0",
   "description": "Skip 5 second ads on YouTube",
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "js/background.js"
   },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["js/content.js"],
+      "css": ["css/style.css"],
+      "run_at": "document_start"
+    }
+  ],
   "action": {
     "default_icon": {
       "16": "icon_16.png",
