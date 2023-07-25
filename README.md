@@ -1,7 +1,34 @@
-# chrome skip five seonds
- 
-Next step: go back to content script mode
+<div style="display:flex;flex-direction:column;align-items:center;gap:10px">
+<img style="width:100px; height:100px; margin:0px auto;border-radius:25px" src=".github/5S5.png" />
+<h1 style="width:100%; text-align:center">Skip 5 Seconds</h1>
+</div>
 
-https://stackoverflow.com/questions/75586121/chrome-extension-to-insert-a-div-under-a-youtube-video
+A little Google Chrome extension to skip 5 second ads on YouTube.
 
-https://stackoverflow.com/questions/34077641/how-to-detect-page-navigation-on-youtube-and-modify-its-appearance-seamlessly/34100952#34100952
+## What does it do?
+
+The extension injects a button under the video player that when pressed will skip the currently playing 5 second ad
+
+![screenshot](.github/screenshot.png)
+
+## Usage
+
+- In the project directory
+
+  - Install dependencies
+
+```
+    $ npm install
+```
+
+- Build the extension
+
+```
+  $ npm run build
+```
+
+> this will create a `dist` directory in the same folder
+
+- Go to [Manage Extenstions](chrome://extensions/) on Chrome and press the `Load Unpacked` button
+
+- Select the `dist` directory that was generated when building the extension
