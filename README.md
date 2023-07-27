@@ -8,7 +8,7 @@
 It injects a Skip 5s Ads button just below the video's title that, when clicked on, will skip the currently playing 5 second ad.
 Unfortunately it doesn't work with. unskippable ads.
 
-# Tech
+## Tech
 
 I made the extension using TypeScript (obviously) and the building process involves webpack and ts-loader.
 
