@@ -6,8 +6,14 @@
   border-radius: 9999px;
   /* Text */
   font-weight: 600;
+  margin: 5px 0px;
 }
 
 .s5s__btn:hover {
   background-color: #d8d8d8;
+}
+
+.s5s__btn:active {
+  background-color: black;
+  color: white;
 }
