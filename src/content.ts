@@ -1,5 +1,5 @@
 import { CONTAINER_SELECTOR, SKIP_BUTTON_ID } from "./constants"
-import { buildSkipButton, deleteElementsInNodeList, findContainer, findSkipButtonClones } from "./elements"
+import { buildSkipButton, findContainer } from "./elements"
 import { appendChild, waitForElem } from "./utils"
 
 (function () {
