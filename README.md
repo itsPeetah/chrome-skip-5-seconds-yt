@@ -3,7 +3,7 @@
 <h1 style="width:100%; text-align:center">Skip 5 Seconds</h1>
 </div>
 
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#e05928', 'T6T5NM7U2');kofiwidget2.draw();</script> 
+<a href="https://ko-fi.com/pietromoroni" aria-label="Link to my Ko-Fi page" style="padding: 10px 5px; border-radius: 10px; background-color:coral;">Support me on ko-fi <3</a>
 
 A little Google Chrome extension to skip 5 second ads on YouTube.
 
