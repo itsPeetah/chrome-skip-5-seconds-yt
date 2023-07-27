@@ -3,9 +3,25 @@
 <h1 style="width:100%; text-align:center">Skip 5 Seconds</h1>
 </div>
 
-<a href="https://ko-fi.com/pietromoroni" aria-label="Link to my Ko-Fi page" style="padding: 10px 5px; border-radius: 10px; background-color:coral;">Support me on ko-fi <3</a>
+> Hello world, this is my first proper Google Chrome extension!
 
-A little Google Chrome extension to skip 5 second ads on YouTube.
+It injects a Skip 5s Ads button just below the video's title that, when clicked on, will skip the currently playing 5 second ad.
+Unfortunately it doesn't work with. unskippable ads.
+
+# Tech
+
+I made the extension using TypeScript (obviously) and the building process involves webpack and ts-loader.
+
+The extension is comprised of:
+- A content script (content.js), which is injected in every YouTube page and listens for YouTube's client-side navigation events in order to add the Skip 5s Ads button to the /watch page;
+- A browser action that basically just mimics the functioning of the Skip 5s Ads button, but is located in the extension toolbar.
+Support
+
+The extension is free and open-source.
+
+If you want to contribute please fork the repository and open a pull request
+
+If you want to support me you can do so on ko-fi. No need to, but appreciated.
 
 ## What does it do?
 
