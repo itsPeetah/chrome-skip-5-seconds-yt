@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Skip 5 Seconds",
   "version": "1.0",
-  "description": "Skip 5 second ads on YouTube",
+  "description": "A simple extension to skip 5 second ads on YouTube",
   "background": {
     "service_worker": "js/background.js"
   },
@@ -15,7 +15,7 @@
     }
   ],
   "action": {
-    "default_title": "Click to skip the current 5 second ad",
+    "default_title": "Click to skip the current 5 second ad (YouTube)",
     "default_icon": {
       "16": "icon/icon_16.png",
       "19": "icon/icon_19.png",
@@ -25,7 +25,6 @@
     }
   },
   "permissions": ["activeTab", "scripting"],
-  "host_permissions": ["<all_urls>"],
   "icons": {
     "16": "icon/icon_16.png",
     "19": "icon/icon_19.png",

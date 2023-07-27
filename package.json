@@ -1,14 +1,23 @@
 {
   "name": "chrome-skip-five-seconds",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Simple Chrome Extension to skip 5 second ads on YouTube",
   "main": "background.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack/webpack.config.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "chrome",
+    "extension",
+    "youtube",
+    "ads"
+  ],
+  "author": {
+    "name": "Pietro Moroni",
+    "email": "pietro.moroni@gmail.com",
+    "url": "https://github.com/itsPeetah"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/chrome": "^0.0.241",
